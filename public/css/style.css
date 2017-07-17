@@ -1,0 +1,69 @@
+.transparent {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.header {
+    background-image: url(http://dengneyal.com/assets/img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 420px;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.header-content {
+    margin-top: 70px;
+}
+
+.social a img {
+    margin: 5px;
+    height: 40px;
+}
+
+.profile-pic {
+    margin-top: 50px;
+    height: 380px;
+    border: solid 3px #666666;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.section-text {
+    margin-top: 50px;
+}
+
+.map {
+    margin-top: 40px;
+    width: 100%;
+    border: solid #2598CD 5px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.panel-height {
+    height: 220px;
+}
+
+.card-height {
+    min-height: 150px;
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        height: 500px;
+    }
+    .header-content {
+        margin-top: 10px;
+    }
+    .icon-scroll,
+    .icon-scroll:before {
+        margin-top: 10px;
+    }
+}
